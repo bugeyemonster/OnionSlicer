@@ -4,13 +4,12 @@ Things to do
 2. Command line args for host, proxyport, fileextension, wordlist, reverse yes or no, max threads
 3. create a log file for each response code.
 4. tkinter GUI
-5. play sound on hit, send message on hit
 6. add more interesting request header information
 
 """
 
 """
-Code by Brady
+Code by bugeyemonster
 March 2019
 version .01
 this prorgam will attempt to find directories and files on a webserver
@@ -38,9 +37,10 @@ if wordListFile == "testlist.txt":
 else:
     hitLog = "os_hits.log"
     missLog = "os_miss.log"
-
+# file extentions can be added to test for files
+# this is not completely working yet
 #fileExtenstion = "php"
-fileExtenstion = False
+fileExtenstion = False 
 
 # function to write hits to a file
 def log_hit(line):
