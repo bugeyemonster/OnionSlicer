@@ -1,10 +1,11 @@
 """
 Things to do
-1. Add time to calculate processing time
+1. Add time to calculate processing time and estimate time remaining
 2. Command line args for host, proxyport, fileextension, wordlist, reverse yes or no, max threads
 3. create a log file for each response code.
 4. tkinter GUI
 6. add more interesting request header information
+7. add sound alert for hits
 
 """
 
