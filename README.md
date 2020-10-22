@@ -1,8 +1,4 @@
 # OnionSlicer
 # written in Python 3
 
-discover subdirectories on a tor web server
-python script that uses a socks proxy to browse directories on a tor website
-the script will write out hits to a file for further research
-
-
+This script and word list ( taken from dirbuster) can be used along with a tor socks proxy to enumerate directories on a onion site.
